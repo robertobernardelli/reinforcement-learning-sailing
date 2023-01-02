@@ -3,7 +3,6 @@ from stable_baselines3 import PPO
 from sailing import SailingEnv
 
 def main():
-    models_dir = "models/PPO"
 
     env = SailingEnv()
     env.reset()
