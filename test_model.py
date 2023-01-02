@@ -2,6 +2,7 @@ import gym
 from stable_baselines3 import PPO
 from sailing import SailingEnv
 
+
 def main():
 
     env = SailingEnv()
@@ -20,8 +21,9 @@ def main():
             obs, rewards, done, info = env.step(action)
             env.render()
             print(rewards)
-    
+
     env.close()
-        
-if __name__ == '__main__':
+
+
+if __name__ == "__main__":
     main()
