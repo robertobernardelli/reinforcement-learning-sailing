@@ -4,7 +4,7 @@ The objective of the agent is to steer the sailboat towards the target in the sh
 
 ![sailing ai](example.gif)
 
- The environment is defined in `sailing.py`.
+ The environment is defined in `sailing.py`. The model used is PPO (Proximal Policy Optimization)
 
 Speed of the boat depends on its angle relative to the wind direction (0 wind direction means the boat is facing the wind):
 
