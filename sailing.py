@@ -2,7 +2,6 @@ import gym
 from gym import spaces
 import numpy as np
 import cv2
-import random
 from utils import *
 
 
